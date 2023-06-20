@@ -1,0 +1,153 @@
+header{
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+.container-header-1{
+    width: 100%;
+    border-top: 1px solid black;
+}
+@media screen and (max-width:850px) {
+    .container-header-1{
+        display: none;
+    }
+}
+.container-top1{
+    max-width: 1050px;
+    margin:auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5px;
+}
+.container-menu-top1{
+    width: 282.222px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 98;
+}
+
+.list-item-1{
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+.list-item-1:last-child>b{
+    background-color: #f95702;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.list-item-1>span{
+    transition: all 0.25s ease;
+}
+.list-item-1:hover > span{
+    color: #f95702;
+}
+
+.hove1::after{
+    content: "";
+    background-color: #f95702;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 2px;
+    transition: all 0.25s ease;
+}
+.hove1::before{
+    content: "";
+    background-color: #f95702;
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 2px;
+    transition: all 0.25s ease;
+}
+.hove1:hover::after,
+.hove1:hover::before{
+    width: 100%;
+}
+/* dropdow menu  */
+.dropdow-menu-1{
+    position: absolute;
+    top: 100%;
+    list-style: none;
+    width: 230px;
+    background-color: rgb(211, 211, 211, 0.8);
+    display: none;
+    animation: dropdow1 0.25s ease;
+}
+@keyframes dropdow1 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.hove1:hover .dropdow-menu-1{
+    display: block;
+}
+.list-dropdow-1{
+    padding: 7px 5px;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+.list-dropdow-1>a{
+    color:#f95702;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+
+.list-dropdow-1::after{
+    content: "";
+    background-color: #f95702;
+    height: 2px;
+    position: absolute;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    transition: all 0.80s ease;
+}
+
+.list-dropdow-1:hover::after{
+    width: 95%;
+}
+/* seach */
+
+.dropdow-search{
+    list-style: none;
+    position: absolute;
+    left: -100%;
+    top: 100%;
+    display: none;
+    animation: dropdow-1 0.25s ease;
+}
+@keyframes dropdow-1 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@media screen and (max-width:1135px) {
+    .dropdow-search{
+       flex-wrap: wrap;
+    }
+}
+.dropdow-1:hover .dropdow-search{
+    display: flex;
+}
+.list-search>button{
+    padding: 5px 8px;
+    cursor: pointer;
+}
+#search{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}

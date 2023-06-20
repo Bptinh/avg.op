@@ -1,0 +1,107 @@
+
+
+.container-slider{
+    width: 100%;
+    position: relative;
+    z-index: ;
+}
+
+.container-item-slider-1{
+    background-image: url(https://avg.vn/wp-content/uploads/2023/03/web-scaled.jpg);
+    background-position-x: 50%;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+    height: 500px;
+    background-size: cover;
+
+}
+.container-item-slider-2{
+    background-image: url(https://avg.vn/wp-content/uploads/2023/03/web-2.png);
+    background-position-x: 50%;
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+    height: 500px;
+    background-size: cover;
+
+}
+.container-item-slider-3{
+        background-image: url(https://avg.vn/wp-content/uploads/2023/06/web-01-01.jpg);
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+}
+.itemslider-1{
+    max-width: 1050px;
+    margin: auto;
+    position: relative;
+    height: 500px;
+}
+.list-item-sld1{
+    display: flex;
+    width: 495px;
+    height: 119px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+}
+.listSl1{
+    width: 99px;
+    height: 119px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.listSl1 a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+.listSl1 a img{
+    width: 40px;
+    height: 40px;
+}
+.noneSld {
+    display: none;
+}
+
+.next-pre{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.next-pre>button{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px 5px;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+.next-pre>button:hover{
+    background-color: black;
+}
+
+.contttt{
+    z-index: -1;
+}
+@media screen and (max-width:850px){
+    .container-slider{
+        display: none;
+    }
+}

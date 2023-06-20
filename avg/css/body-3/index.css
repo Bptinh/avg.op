@@ -1,0 +1,119 @@
+.container-body-b4{
+    background-color: #f95702;
+    height: 228px;
+    margin: 40px 0;
+}
+.container-body-b4 h6{
+    padding-top:10px ;
+    padding-bottom: 10px;
+    color: #575656;
+}
+.container-body-b4 h6 i{
+    font-size: 26px;
+    color: #ffffff;
+}
+@media screen and (max-width:750px) {
+    .container-body-b4 h6{
+        padding-top:10px ;
+        padding-bottom: 10px;
+        color: #575656;
+        font-size: 16px;
+    }
+    .container-body-b4 h6 i{
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .container-body-b4{
+        height: 100%;
+}
+}
+.item-left-4{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.center-b4{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container-center{
+    position: relative;
+}
+.contai-cter{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.cter{
+    background:url(./bg-2.png) no-repeat;
+    background-position: center;
+    background-size: 300px;
+    width: 333px;
+    height: 225px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:750px) {
+    .cter{
+        height: 30%;
+    }
+}
+.contai-text-center h3{
+    font-size: 35px;
+    font-weight: 300;
+    width: 300px;
+}
+.contai-text-center h2{
+    font-size: 35px;
+    font-weight: 600;
+    width: 300px;
+    
+}
+@media screen and (max-width:750px) {
+    .contai-text-center h3{
+        font-size: 20px;
+        font-weight: 300;
+        width: 300px;
+    }
+    .contai-text-center h2{
+        font-size: 20px;
+        font-weight: 600;
+        width: 300px;
+        
+    }
+}
+
+.right-b4{
+    color: #575656;
+    margin-top: 40px;
+}
+
+.right-b4 h6{
+    font-size: 20px;
+}
+.right-b4 h6 b{
+    color: #ffff;
+    font-size: 30px
+}
+@media screen and (max-width:750px) {
+    .right-b4{
+        color: #575656;
+        margin-top:45px;
+    }
+    
+    .right-b4 h6{
+        font-size: 15px;
+    }
+    .right-b4 h6 b{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:300px) {
+    .center-b4{
+        display: block;
+    }
+}

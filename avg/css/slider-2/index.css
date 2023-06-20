@@ -1,0 +1,115 @@
+.wrapper{
+    height: 430px;
+}
+/*  */
+.item-carousel-top{
+    max-width: 1020px;
+    height: 54px;
+    padding: 0 0 15px 20px;
+    margin: auto;
+}
+.crousel-item-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-crousel-top{
+    width: max-content;
+    height: auto;
+}
+.logo-crousel-top a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.logo-crousel-top a .img-logo-crs img{
+    width: 30px;
+    height: 32px;
+    object-fit: cover;
+    margin-top: 7px;
+}
+.logo-crousel-top a h5{
+    font-size: 30px;
+    color: #f95702;
+    border-bottom: 2px solid #f95702;
+    height: 34px;
+}
+.contai-pre-next-crs{
+    width: max-content;
+    display: flex;
+}
+.contai-pre-next-crs button{
+    width: 35px;
+    height: 35px;
+    margin: 0 3px;
+    color: #f95702;
+}
+/*  */
+.carousel{
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:calc((100% / 3) -12px);
+    gap: 10px ;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+    scrollbar-width: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.dragging{
+    cursor: grab;
+    user-select: none;
+    scroll-behavior: auto;
+    scroll-snap-type:none;
+}
+.not-transition{
+    scroll-behavior: auto;
+}
+.carousel :where(.item-card, .img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-card{
+    scroll-snap-align: start;
+    width: 339.98px;
+    height: 346.63px;
+    padding: 0 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (max-width:850px) {
+    .carousel{
+        grid-auto-columns: calc((100% /2 ) - 12px);
+    }
+}
+@media screen and (max-width:700px){
+    .carousel{
+        grid-auto-columns:100%;
+    }
+    .item-card{
+        width: 100%;
+    }
+   
+}
+.item-card a{
+    text-decoration: none;
+}
+.item-card a .img img{
+    width: 309.98px;
+    height: 220px;
+    object-fit: cover;
+}
+.item-card a h3{
+    font-size: 17px;
+    color: #333333;
+    padding: 10px 0;
+}

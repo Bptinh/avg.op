@@ -1,0 +1,21 @@
+@import url(./header-top/top1/index.css);
+@import url(./header-top/top2/index.css);
+@import url(./slider-1/index.css);
+@import url(./slider-2/index.css);
+@import url(./body-1/index.css);
+@import url(./body-2/index.css);
+@import url(./slider-3/index.css);
+@import url(./body-3/index.css);
+@import url(./style-ebd/index.css);
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+

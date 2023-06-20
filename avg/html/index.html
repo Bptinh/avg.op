@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - 19001900</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- link gg font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <!-- js -->
+    <script src="../javaScript/index.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+         .activer-b3{
+            transform: rotate(0deg);
+        }
+        .drop-dowlabel{
+            display: block;
+            height: 100%;
+        }
+        .active-open{
+            display: block;
+            width: 30%;
+            animation: acopen 0.50s ease;
+        }
+        @keyframes acopen {
+            from{opacity: 0;left: -100%;}
+            to{opacity: 1; left: 0;}
+        }
+
+        body.hiden {
+            overflow-y:hidden ;
+        }
+        
+        .main{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background-color: rgb(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-top">
+            <div class="container-header-1">
+                <div class="container-top1">
+                    <ul class="container-menu-top1">
+                        <li class="list-item-1 hove1">
+                            <span>Về AVG</span>
+                            <ol class="dropdow-menu-1">
+                                <li class="list-dropdow-1"><a href="">Giới Thiệu Chung</a></li>
+                                <li class="list-dropdow-1"><a href="">Đối Tác</a></li>
+                                <li class="list-dropdow-1"><a href="">Liên Hệ</a></li>
+                            </ol>
+                        </li>
+                        <li class="list-item-1 hove1">
+                            <span>Hỗ Trợ</span>
+                            <ol class="dropdow-menu-1">
+                                <li class="list-dropdow-1"><a href="">Hướng Dẫn Dò Kênh</a></li>
+                                <li class="list-dropdow-1"><a href="">Nâng Cấp Phần Mềm</a></li>
+                                <li class="list-dropdow-1"><a href="">Chính Sách Bảo Hành</a></li>
+                                <li class="list-dropdow-1"><a href="">Đăng Ký Đại Lý Ủy Quyền</a></li>
+                                <li class="list-dropdow-1"><a href="">Hóa Đơn Điện Tử</a></li>
+                                <li class="list-dropdow-1"><a href="">Câu Hỏi Thường Gặp</a></li>
+                                <li class="list-dropdow-1"><a href="">Tra Cứu Hợp Đồng Điện Tử</a></li>
+                            </ol>
+                        </li>
+                        <li class="list-item-1 dropdow-1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <ol class="dropdow-search">
+                                <li class="list-search">
+                                    <input type="search" name="search" id="search" placeholder="search...">
+                                </li>
+                                <li class="list-search">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="list-item-1"><b>19001900</b></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-overplay"></div>
+            <!-- top 2 -->
+            <div class="container-header-2">
+                <div class="container-top2">
+                    <div class="container-logo">
+                        <a href=""><img src="../img/logo.png" alt=""></a>
+                    </div>
+                    <ul class="container-menu-top2">
+                        <li class="list-item-2 hoves  cl-muavg">
+                            <span>Mua AVG</span>
+                            <ol class="dropdow-menu-2 mua-avg">
+                                <li class="list-fropdow-2"><a href="">Đăng Ký Lắp Đặt Tại Nhà</a></li>
+                                <li class="list-fropdow-2"><a href="">Tìm Đại Lý Gần Nhất</a></li>
+                                <li class="list-fropdow-2 spavg">
+                                    <span>Bộ Sản Phẩm AVG</span>
+                                    <ul class="dropdow-child-2 bsp">
+                                        <li class="list-child-2"><a href="">Bộ Đầu Thu Mặt Đất</a></li>
+                                        <li class="list-child-2"><a href="">Bộ Đầu Thu Vệ Tinh</a></li>
+                                    </ul>
+                                </li>
+                                <li class="list-fropdow-2">
+                                    <span>Gói Dịch Vự</span>
+                                    <ul class="dropdow-child-2">
+                                        <li class="list-child-2"><a href="">Gói Cao Cấp </a></li>
+                                        <li class="list-child-2"><a href="">Gói Cơ Bản</a></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                        <li class="list-item-2 hoves GHTB">
+                            <span>Gia Hạn Thuê Bao</span>
+                            <ol class="dropdow-menu-2 DRGHTB">
+                                <li class="list-fropdow-2"><a href="">Các Hình Thức Gia Hạn Cước</a></li>
+                                <li class="list-fropdow-2"><a href="">Gia Hạn Trực Tuyến</a></li>
+                                <li class="list-fropdow-2"><a href="">Hướng Dẫn Tra Cứu Cước</a></li>
+                            </ol>
+                        </li>
+                        <li class="list-item-2 list-rps-2"><a href="">Tin Tức</a></li>
+                        <li class="list-item-2 list-rps-2"><a href="">Khuyến Mại HOT</a></li>
+                        <!-- rps list -->
+                        <li class="list-item-2-rps">
+                            <ul class="contai-menu-rps-2">
+                                <li class="list-rps-2 vavg">
+                                    <span>Về AVG</span>
+                                    <ol class="dropdow-item-2-rps vavg1">
+                                        <li class="list-item-rps-2"><a href="">Giới Thiệu Chung</a></li>
+                                        <li class="list-item-rps-2"><a href="">Đối Tác</a></li>
+                                        <li class="list-item-rps-2"><a href="">Liên Hệ</a></li>
+                                    </ol>
+                                </li>
+                                <li class="list-rps-2 htavg">
+                                    <span>Hỗ Trợ</span>
+                                    <ol class="dropdow-item-2-rps htavg2">
+                                        <li class="list-item-rps-2"><a href="">Hướng Dẫn dò Kênh</a></li>
+                                        <li class="list-item-rps-2"><a href="">Nâng Cấp Phần Mềm</a></li>
+                                        <li class="list-item-rps-2"><a href="">Chính Sách Bảo Hành</a></li>
+                                        <li class="list-item-rps-2"><a href="">Đăng ký Đại Lý Ủy Quyền</a></li>
+                                        <li class="list-item-rps-2"><a href="">Hóa Đơn Điện Tử</a></li>
+                                        <li class="list-item-rps-2"><a href="">Câu Hỏi Thường Gặp</a></li>
+                                        <li class="list-item-rps-2"><a href="">Tra Cứ Hợp Đồng Điện Tử</a></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- rps mobile -->
+                    <div class="list-rps-mobile">
+                        <div class="item-rps-mobile"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="item-rps-mobile"><b title="19001900">19001900</b></div>
+                        <div class="item-rps-mobile open"><i class="fa-solid fa-bars"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- slider show 1 -->
+    <div class="container-slider">
+        <div class="contttt">
+            <div class="container-item-slider-1 noneSld">
+                <div class="itemslider-1">
+                    <div class="list-item-sld1">
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="94" height="132" src="https://avg.vn/wp-content/uploads/2020/03/Asset-11.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Đăng ký láp đặt</p>
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="128" height="125" src="https://avg.vn/wp-content/uploads/2020/03/Asset-10.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Gia hạn thuê bao</p>
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="99" height="135" src="https://avg.vn/wp-content/uploads/2020/03/Asset-9.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Tìm đại lý gần nhất</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-item-slider-2 noneSld">
+                <div class="itemslider-1">
+                    <div class="list-item-sld1">
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="94" height="132" src="https://avg.vn/wp-content/uploads/2020/03/Asset-11.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Đăng ký láp đặt</p>
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="128" height="125" src="https://avg.vn/wp-content/uploads/2020/03/Asset-10.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Gia hạn thuê bao</p>
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="99" height="135" src="https://avg.vn/wp-content/uploads/2020/03/Asset-9.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Tìm đại lý gần nhất</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-item-slider-3 noneSld">
+                <div class="itemslider-1">
+                    <div class="list-item-sld1">
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="94" height="132" src="https://avg.vn/wp-content/uploads/2020/03/Asset-11.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Đăng ký láp đặt</p>
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="128" height="125" src="https://avg.vn/wp-content/uploads/2020/03/Asset-10.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Gia hạn thuê bao</p>
+                                </div>
+                                
+                            </a>
+                        </div>
+                        <div class="listSl1">
+                            <a href="">
+                                <div class="content-list-1">
+                                    <img width="99" height="135" src="https://avg.vn/wp-content/uploads/2020/03/Asset-9.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                                    <p>Tìm đại lý gần nhất</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="next-pre">
+            <button onclick="plusSlides(-1)" id="pre"><i class="fa-solid fa-angle-left"></i></button>
+            <button onclick="plusSlides(1)" id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+    <!-- slider 2 -->
+    <div class="wrapper">
+        <div class="item-carousel-top">
+            <div class="crousel-item-top">
+                <div class="logo-crousel-top">
+                    <a href="">
+                        <div class="img-logo-crs">
+                            <img width="57" height="56" src="https://avg.vn/wp-content/uploads/2020/03/ssddsfdsfdsv.png" class="attachment-medium size-medium" alt="" loading="lazy">
+                        </div>
+                        <h5>Tin nổi bật</h5>
+                    </a>
+                </div>
+                <div class="contai-pre-next-crs">
+                    <button class="left" id="prevNext"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="right" id="prevNext"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <ul class="carousel carouselTinhka">
+            <li class="item-card cardTinhka cardTinhka">
+                <a href="">
+                    <div class="img">
+                        <img width="500" height="354" src="https://avg.vn/wp-content/uploads/2023/04/500X354-02-1.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/500X354-02-1.png 500w, https://avg.vn/wp-content/uploads/2023/04/500X354-02-1-300x212.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+                    </div>
+                <h3>
+                    TIẾN ĐẠI LỄ - TẶNG 50% KHI GIA HẠN CƯỚC
+                </h3>
+                <span id="date"></span>
+                </a>
+            </li>
+            <li class="item-card cardTinhka cardTinhka">
+                <a href="">
+                    <div class="img">
+                        <img width="1020" height="574" src="https://avg.vn/wp-content/uploads/2023/04/1920x1080-2-1024x576.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/1920x1080-2-1024x576.png 1024w, https://avg.vn/wp-content/uploads/2023/04/1920x1080-2-300x169.png 300w, https://avg.vn/wp-content/uploads/2023/04/1920x1080-2-768x432.png 768w, https://avg.vn/wp-content/uploads/2023/04/1920x1080-2-1536x864.png 1536w, https://avg.vn/wp-content/uploads/2023/04/1920x1080-2.png 1920w" sizes="(max-width: 1020px) 100vw, 1020px">
+                    </div>
+                <h3>
+                    TRỌN VẸN SEA GAMES 32 TRÊN TRUYỀN HÌNH AVG
+                </h3>
+                <span id="date"></span>
+                </a>
+            </li>
+            <li class="item-card cardTinhka">
+                <a href="">
+                    <div class="img">
+                        <img width="500" height="354" src="https://avg.vn/wp-content/uploads/2023/04/500X354-1.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/500X354-1.png 500w, https://avg.vn/wp-content/uploads/2023/04/500X354-1-300x212.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+                    </div>
+                <h3>
+                    DỊCH VỤ SHIP COD THẺ CÀO NẠP CƯỚC TRUYỀN HÌNH
+                </h3>
+                <span id="date"></span>
+                </a>
+            </li>
+            <li class="item-card cardTinhka">
+                <a href="">
+                    <div class="img">
+                        <img width="500" height="354" src="https://avg.vn/wp-content/uploads/2023/04/500x354.png" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/500x354.png 500w, https://avg.vn/wp-content/uploads/2023/04/500x354-300x212.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+                    </div>
+                <h3>
+                    GIỚI THIỆU KÊNH HƯỚNG DẪN KHÁCH HÀNG - KÊNH 11
+                </h3>
+                <span id="date"></span>
+                </a>
+            </li>
+            <li class="item-card cardTinhka">
+                <a href="">
+                    <div class="img">
+                        <img width="974" height="690" src="https://avg.vn/wp-content/uploads/2023/03/THETHAO103-11-2.jpg" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/03/THETHAO103-11-2.jpg 974w, https://avg.vn/wp-content/uploads/2023/03/THETHAO103-11-2-300x213.jpg 300w, https://avg.vn/wp-content/uploads/2023/03/THETHAO103-11-2-768x544.jpg 768w" sizes="(max-width: 974px) 100vw, 974px">
+                    </div>
+                <h3>
+                    TRUYỀN HÌNH AVG PHÁT SÓNG GIẢI BÓNG ĐÁ VĐQG V>LEAGUE 1
+                </h3>
+                <span id="date"></span>
+                </a>
+            </li>
+            <li class="item-card cardTinhka">
+                <a href="">
+                    <div class="img">
+                        <img width="1020" height="722" src="https://avg.vn/wp-content/uploads/2023/05/9c6267b2e8c5369b6fd4-1024x725.jpg" class="attachment-large size-large wp-post-image" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/05/9c6267b2e8c5369b6fd4-1024x725.jpg 1024w, https://avg.vn/wp-content/uploads/2023/05/9c6267b2e8c5369b6fd4-300x212.jpg 300w, https://avg.vn/wp-content/uploads/2023/05/9c6267b2e8c5369b6fd4-768x543.jpg 768w, https://avg.vn/wp-content/uploads/2023/05/9c6267b2e8c5369b6fd4.jpg 1043w" sizes="(max-width: 1020px) 100vw, 1020px">
+                    </div>
+                <h3>
+                    MỪNG NGÀY TRỞ LẠI - TƯNG BỪNG KHUYỄN MÃI
+                </h3>
+                <span id="date"></span>
+                </a>
+            </li>
+        </ul>
+   </div>
+   <!-- body  -->
+   <div class="container-body-1">
+    <div class="contai-item-bd-1">
+        <div class="contai-itemText-bd-1">
+            <h2>Truyền hình số vệ tinh DTH</h2>
+            <p>
+                Gói kênh DTH mang đến cho khán giả sự lựa chọn hấp dẫn với mức phí thuê bao chỉ
+                từ 30.000 – 60.000đ/tháng. Gói Cao cấp có tới 154 kênh (77 kênh HD) và gói Cơ bản
+                có 132 kênh (61 kênh HD)&nbsp; bao gồm nhiều nhóm kênh hấp dẫn, đáp ứng nhu cầu xem
+                truyền hình của mọi khách hàng…
+            </p>
+            <div id="contai-item-gia-bd-1">
+                <div id="gia-bd-1">
+                    <b>30-60.000đ</b>
+                    <span>/tháng</span>
+                </div>
+                <div id="gia-bd-1">
+                    <b>154</b>
+                    <span>Kênh</span>
+                </div>
+            </div>
+            <a href=""><i>xem thêm</i></a>
+        </div>
+        <div class="contai-item-img-bd-1">
+            <img src="../img/DTHDTT4.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!-- body2  -->
+<div class="container-body-2">
+    <div class="contai-item-bd-2">
+        <div class="contai-item-img-bd-2">
+            <img src="../img/DTHDTT5.jpg" alt="">
+        </div>
+        <div class="contai-itemText-bd-2">
+            <div id="h2"><h2>Truyền hình số vệ tinh DTH</h2></div>
+            <p>
+                Gói Cao cấp của Truyền hình số vệ tinh DTT mang đến 
+                119 kênh (52 kênh HD), gói Cơ bản cung cấp 94 kênh 
+                (34 kênh HD). Khi đăng ký Truyền hình số Mặt đất DTT, 
+                Quý khán giả sẽ được thưởng thức hệ thống kênh đặc 
+                sắc, phong phú về thể loại với chi phí vô cùng tiết kiệm…
+            </p>
+            <div id="contai-item-gia-bd-2">
+                <div id="gia-bd-2">
+                    <b>30-60.000đ</b>
+                    <span>/tháng</span>
+                </div>
+                <div id="gia-bd-2">
+                    <b>119</b>
+                    <span>Kênh</span>
+                </div>
+            </div>
+            <div id="a2"><a href=""><i>xem thêm</i></a></div>
+        </div>
+    </div>
+</div>
+<!-- bd 3 -->
+<div class="contai-body-b3">
+    <div class="contai-item-b3">
+        <div class="item-left-b3">
+            <img src="../img/banner-v.jpg" alt="">
+            <div class="contai-text-left-b3">
+                <span id="text-left-b1" class="text-left-b3">Hãy để <img src="../img/logo.png" alt=""></span>
+                <span id="text-left-b2" class="text-left-b3">hỗ trợ bạn </span>
+                <span id="text-left-b3" class="text-left-b3">ngay hôm nay !</span>
+            </div>
+        </div>
+        <div class="item-right-b3">
+            <span class="text-tight-top">hỗ trợ khách hàng</span>
+            <a href="" class="contai-text-right">
+                <div class="icon-phone-right">
+                    <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="number-phone">
+                    <span id="phone">19001900</span>
+                    <span id="ht">giờ làm việc 7h-22h</span>
+                </div>
+            </a>
+            <h4><i class="fa-solid fa-location-dot"></i> Đại lý gần nhất</h4>
+            <h4 class="text-right-top1">Bạn muốn tìm hiểu</h4>
+            <div class="label-right-body-b3">
+                <ul class="dropdow-b3">
+                    <li class="list-label">
+                        <span class="item-list-label"><span>Về sản phẩm</span><i class="fa-solid fa-chevron-up"></i></span>
+                        <ol class="drop-dow-label">
+                            <li class="item-dropdow-b3"><a href="">Về dịch vụ khuyến mại</a></li>
+                            <li class="item-dropdow-b3"><a href="">Về giải quyết khiếu nại</a></li>
+                            <li class="item-dropdow-b3"><a href="">Về hướng dẫn khác phục sự cố</a></li>
+                            <li class="item-dropdow-b3"><a href="">Về nâng cấp phần mềm</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="container-body-b4">
+        <div class="center-b4">
+            <div class="left-b4">
+                <div class="item-left-4">
+                    <h6>Gói cước giá rẻ <i class="fa-solid fa-dollar-sign"></i></h6>
+                    <hr style="border-color: aliceblue;">
+                    <h6>Lắp đặt dễ dàng <i class="fa-regular fa-clock"></i></h6>
+                </div>
+            </div>
+           <div class="container-center">
+            <div class="contai-cter">
+                <div class="cter">
+                    <div class="contai-text-center">
+                        <h3>VÌ SAO CHỌN</h3>
+                        <h2>TRUYỀN HÌNH AVG?</h2>
+                    </div>
+                </div>
+            </div>
+           </div>
+            <div class="right-b4">
+                <h6><b >150+ </b>Kênh Truyền hình</h6>
+                <hr style="border-color: aliceblue;">
+                <h6><b>63 </b>Tỉnh Thành</h6>
+            </div>
+        </div>
+    </div>
+    <!-- slider 3 -->
+    <div class="container-slider-33">
+        <ul class="contai-slider-33 ">
+            <li class="item-slider-33 ">
+                <img  src="https://avg.vn/wp-content/uploads/2020/03/rdhtrdrt.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="1020" height="785" src="https://avg.vn/wp-content/uploads/2023/04/BBC_News_Stacked_Black_Core_Colour_RGB_HR-1024x788.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/BBC_News_Stacked_Black_Core_Colour_RGB_HR-1024x788.png 1024w, https://avg.vn/wp-content/uploads/2023/04/BBC_News_Stacked_Black_Core_Colour_RGB_HR-300x231.png 300w, https://avg.vn/wp-content/uploads/2023/04/BBC_News_Stacked_Black_Core_Colour_RGB_HR-768x591.png 768w, https://avg.vn/wp-content/uploads/2023/04/BBC_News_Stacked_Black_Core_Colour_RGB_HR-1536x1183.png 1536w, https://avg.vn/wp-content/uploads/2023/04/BBC_News_Stacked_Black_Core_Colour_RGB_HR-2048x1577.png 2048w" sizes="(max-width: 1020px) 100vw, 1020px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="1020" height="174" src="https://avg.vn/wp-content/uploads/2022/09/ONFOOTBALL_rgb-1024x175.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2022/09/ONFOOTBALL_rgb-1024x175.png 1024w, https://avg.vn/wp-content/uploads/2022/09/ONFOOTBALL_rgb-300x51.png 300w, https://avg.vn/wp-content/uploads/2022/09/ONFOOTBALL_rgb-768x131.png 768w, https://avg.vn/wp-content/uploads/2022/09/ONFOOTBALL_rgb-1536x262.png 1536w, https://avg.vn/wp-content/uploads/2022/09/ONFOOTBALL_rgb.png 1804w" sizes="(max-width: 1020px) 100vw, 1020px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/bvcncvbngf.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="650" height="416" src="https://avg.vn/wp-content/uploads/2023/04/Logo_vtv_can_tho_2022.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/Logo_vtv_can_tho_2022.png 650w, https://avg.vn/wp-content/uploads/2023/04/Logo_vtv_can_tho_2022-300x192.png 300w" sizes="(max-width: 650px) 100vw, 650px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="564" height="155" src="https://avg.vn/wp-content/uploads/2023/04/Logo-Echannel-01.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/Logo-Echannel-01.png 564w, https://avg.vn/wp-content/uploads/2023/04/Logo-Echannel-01-300x82.png 300w" sizes="(max-width: 564px) 100vw, 564px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="860" height="338" src="https://avg.vn/wp-content/uploads/2023/04/287-2873744_cinemax-logo-png-transparent-png.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/287-2873744_cinemax-logo-png-transparent-png.png 860w, https://avg.vn/wp-content/uploads/2023/04/287-2873744_cinemax-logo-png-transparent-png-300x118.png 300w, https://avg.vn/wp-content/uploads/2023/04/287-2873744_cinemax-logo-png-transparent-png-768x302.png 768w" sizes="(max-width: 860px) 100vw, 860px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="1020" height="328" src="https://avg.vn/wp-content/uploads/2023/04/Cinemaworld-1024x329.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/Cinemaworld-1024x329.png 1024w, https://avg.vn/wp-content/uploads/2023/04/Cinemaworld-300x96.png 300w, https://avg.vn/wp-content/uploads/2023/04/Cinemaworld-768x247.png 768w, https://avg.vn/wp-content/uploads/2023/04/Cinemaworld-1536x494.png 1536w, https://avg.vn/wp-content/uploads/2023/04/Cinemaworld-2048x659.png 2048w" sizes="(max-width: 1020px) 100vw, 1020px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/drhtfgbvfh.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/fghcfhtr.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/fghcfhtr.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/gdfbbcbcvbvcb.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/fngfngfngfngfn.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/fngfngjjytyngh.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/zdgfdgrgrgfdb.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/hftrtyjyuiopi.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/hjkjhk.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="1020" height="229" src="https://avg.vn/wp-content/uploads/2022/09/ONSPORTS-NEWS_dark-background_rgb-red-1024x230.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2022/09/ONSPORTS-NEWS_dark-background_rgb-red-1024x230.png 1024w, https://avg.vn/wp-content/uploads/2022/09/ONSPORTS-NEWS_dark-background_rgb-red-300x67.png 300w, https://avg.vn/wp-content/uploads/2022/09/ONSPORTS-NEWS_dark-background_rgb-red-768x172.png 768w, https://avg.vn/wp-content/uploads/2022/09/ONSPORTS-NEWS_dark-background_rgb-red.png 1529w" sizes="(max-width: 1020px) 100vw, 1020px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="340" height="192" src="https://avg.vn/wp-content/uploads/2023/04/Logo_HTV_Key.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/Logo_HTV_Key.png 340w, https://avg.vn/wp-content/uploads/2023/04/Logo_HTV_Key-300x169.png 300w" sizes="(max-width: 340px) 100vw, 340px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="500" height="151" src="https://avg.vn/wp-content/uploads/2023/04/styletv-01282_w500_h500.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2023/04/styletv-01282_w500_h500.png 500w, https://avg.vn/wp-content/uploads/2023/04/styletv-01282_w500_h500-300x91.png 300w" sizes="(max-width: 500px) 100vw, 500px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="1020" height="353" src="https://avg.vn/wp-content/uploads/2021/06/ON-Sports-1024x354.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2021/06/ON-Sports-1024x354.png 1024w, https://avg.vn/wp-content/uploads/2021/06/ON-Sports-300x104.png 300w, https://avg.vn/wp-content/uploads/2021/06/ON-Sports-768x265.png 768w, https://avg.vn/wp-content/uploads/2021/06/ON-Sports.png 1312w" sizes="(max-width: 1020px) 100vw, 1020px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="1020" height="205" src="https://avg.vn/wp-content/uploads/2022/09/ONSPORTS_rgb-1024x206.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://avg.vn/wp-content/uploads/2022/09/ONSPORTS_rgb-1024x206.png 1024w, https://avg.vn/wp-content/uploads/2022/09/ONSPORTS_rgb-300x60.png 300w, https://avg.vn/wp-content/uploads/2022/09/ONSPORTS_rgb-768x154.png 768w, https://avg.vn/wp-content/uploads/2022/09/ONSPORTS_rgb.png 1533w" sizes="(max-width: 1020px) 100vw, 1020px">
+            </li>
+            <li class="item-slider-33 ">
+                <img width="300" height="150" src="https://avg.vn/wp-content/uploads/2020/03/dfdbdfbfdbdfbf.jpg" class="attachment-large size-large" alt="" loading="lazy">
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end -->
+<div class="container-body-end">
+    <div class="container-item-end">
+        <div href="" class="text-end-1">
+            <a href="" class="item-end-1">
+                <div class="logo-end">
+                    <img src="../img/logo.png" alt="" width="160px">
+                </div>
+                   <p class="end-text-1">
+                    Công ty cổ phần nghe nhìn toàn cầu
+                   </p>
+                   <p class="end-text-2">
+                    - GCN ĐKDN số 3700099015 do sở KH&ĐT tỉnh Bình Dương
+                    cấp lần đầu ngày 15/8/2008. GP thiết lập trang TTĐT số 21/GP-STTTT
+                    ngày 03/3/2020. <br>
+                    - Người đại diện pháp luật Ông vũ Minh Trí - Chức vụ: Tổng Giám đốc. <br>
+                    - Địa chỉ trụ sở chính Số 26-E 2a, đường số 1, khu biệt thự Phú Thịn,P.Thọ,Thành Phố Thủ Đầu Một, Tỉnh 
+                    Bình Phước Việt Nam/ <br>
+                    - Chi nhánh Hà Nội: Tòa nhà IC, 82 Duy Tân, P.Dịch Vọng Hậu
+                    , Q.Cầu Giấy, Hà Nội. <br>
+                    - Địa Chỉ liên hệ tại Hà Nội: Tầng 8, tòa nhà VPBank số 5 
+                    Điện Biên Phủ, P.Điện Biên Phủ, Q.Ba Đình, Hà Nội <br>
+                    - ĐT: 024.3871.3666 - Hotline: 190019000 <br>
+                    - Mail:CSKH@avg.vn
+                   </p>
+            </a>
+           <div class="contai-icon-end">
+                <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+           </div>
+          
+        </div>
+        <div class="text-end-2">
+            <ul class="ul-end-2">
+                <li class="list-end-2">
+                    <h3>Về AVG</h3>
+                    <ol class="dropdow-end-2">
+                        <li class="lisr-dp-2"><a href="">Giới thiệu chung</a></li>
+                        <li class="lisr-dp-2"><a href="">Đối tác</a></li>
+                        <li class="lisr-dp-2"><a href="">Liên hệ</a></li>
+                    </ol>
+                </li>
+                <li class="list-end-2">
+                    <h3>Sản phẩm dịch vụ</h3>
+                    <ol class="dropdow-end-2">
+                        <li class="lisr-dp-2"><a href="">Truyền hình số mặt đất DTT</a></li>
+                        <li class="lisr-dp-2"><a href="">Truyền hình vệ tinh số DTH</a></li>
+                        <li class="lisr-dp-2"><a href="">Truyền hình internet (OTT)</a></li>
+                        <li class="lisr-dp-2"><a href="">Dịch vụ viễn thông</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="text-end-3">
+            <ul class="ul-end-2">
+                <li class="list-end-2">
+                    <h3>Tin tức</h3>
+                    <ol class="dropdow-end-2">
+                        <li class="lisr-dp-2"><a href="">Tin nổi bật</a></li>
+                        <li class="lisr-dp-2"><a href="">Tin khuyễn mại</a></li>
+                        <li class="lisr-dp-2"><a href="">Trương trình đặc sắc</a></li>
+                    </ol>
+                </li>
+                <li class="list-end-2">
+                    <h3>Gia hạn gói cước</h3>
+                    <ol class="dropdow-end-2">
+                        <li class="lisr-dp-2"><a href="">Cách gia hạn</a></li>
+                        <li class="lisr-dp-2"><a href="">Gia hạn trực tuyến</a></li>
+                       
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="text-end-4">
+            <ul class="ul-end-2">
+                <li class="list-end-2">
+                    <h3>Hỗ trợ</h3>
+                    <ol class="dropdow-end-2">
+                        <li class="lisr-dp-2"><a href="">Tìm đại lý gàn nhất</a></li>
+                        <li class="lisr-dp-2"><a href="">Câu hỏi thường gặp</a></li>
+                        <li class="lisr-dp-2"><a href="">Đăng ký đại lý</a></li>
+                        <li class="lisr-dp-2"><a href="">Hóa đơn điện tử</a></li>
+                    </ol>
+                </li>
+                <li class="list-end-2">
+                    <h3>Chính sách</h3>
+                    <ol class="dropdow-end-2">
+                        <li class="lisr-dp-2"><a href="">Giấy phép dịch vụ DTH</a></li>
+                        <li class="lisr-dp-2"><a href="">Giấy phép dịch vụ DTT</a></li>
+                        <li class="lisr-dp-2"><a href="">Phương thức cung ứng dịch vụ</a></li>
+                        <li class="lisr-dp-2"><a href="">Phương thức thanh toán</a></li>
+                        <li class="lisr-dp-2"><a href="">Chính sách bảo mật thông tin</a></li>
+                    </ol>
+                </li>
+                <li class="logoSale">
+                    <img src="../img/logoSaleNoti.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h3>Văn phòng bán hàng:</h3>
+    <p>
+        <b>Miền Bắc</b>:Tầng 5 tòa nhà VPbank, số 5 Điện Biên Phủ, P.Điện Biên, 
+        Phủ, Q.Ba Đình, Hà Nội. SĐT:024.3871.366
+    </p>
+    <p>
+        <b>Miền Nam:</b> Tầng 12, Tòa số 18 Nguyễn Văn Mại, P.4, Q.Tân Bình,
+        TP.HCM. ĐT:028.7300 4664.
+    </p>
+</div>
+<div class="container-end-note">
+    <div class="item-end-note">
+        <p>
+            AVG.VN là cổng thông tin chính thức duy nhất của Công Ty
+            Cổ phần Nghe nhìn Toàn Cầu (AVG)
+        </p>
+        <p>
+            Design by <a href="">HVCG Software</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
